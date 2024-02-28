@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { MobileNav } from "./mobileNav";
 
 export const Navbar = component$(() => {
   const headerNavLinks = [
@@ -15,15 +16,14 @@ export const Navbar = component$(() => {
      mx-8 flex items-center justify-between py-2"
     >
       <div>
-        <a href="/" aria-label="Facundo">
+        <a href="/" aria-label="Sapp">
           <div class="flex items-center justify-between">
             <div class="mr-3">
               <img
                 width="150"
                 height="150"
                 src="https://res.cloudinary.com/ddpmly8bf/image/upload/v1709144302/sap_tigbut.png"
-                alt=""
-                class="w-50 h-50"
+                alt="Logo Sapp"
               />
             </div>
           </div>
@@ -41,6 +41,7 @@ export const Navbar = component$(() => {
               {link.title}
             </a>
           ))}
+        <MobileNav />
       </div>
     </header>
   );
