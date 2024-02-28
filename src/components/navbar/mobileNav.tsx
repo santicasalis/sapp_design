@@ -1,4 +1,4 @@
-import { component$, useSignal, useStore } from "@builder.io/qwik";
+import { component$, useSignal } from "@builder.io/qwik";
 
 export const MobileNav = component$(() => {
   const headerNavLinks = [
@@ -9,10 +9,6 @@ export const MobileNav = component$(() => {
     { href: "/contact", title: "Contacto" },
   ];
   const toggleState = useSignal(false);
-
-  const onToggleNav = () => {
-    return "hola";
-  };
 
   return (
     <>
