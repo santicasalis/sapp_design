@@ -11,7 +11,7 @@ export default component$(() => {
         complementan a la perfección y le dan ese toque especial que tanto
         buscábamos! El estudio ahora cuenta con tres oficinas, una sala de
         reuniones y una recepción. Si estás buscando remodelar tus espacios no
-        dudes en contactarnos.
+        dudes en contactarnos.
       </p>
 
       <div class="mx-2 flex flex-wrap">
