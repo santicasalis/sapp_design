@@ -16,7 +16,7 @@ export const SectionImg = component$(() => {
         innovadoras que conviertan tus espacios en algo realmente excepcional.
         Unite a la experiencia SAPP y dale un nuevo y emocionante giro a tus
         ambientes. ¡Descubrí cómo podemos revitalizar tus espacios y reflejar tu
-        estilo personal con un toque de distinción!
+        estilo personal con un toque de distinción!
       </div>
     </div>
   );
