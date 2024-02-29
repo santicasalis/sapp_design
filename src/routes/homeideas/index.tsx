@@ -26,6 +26,7 @@ export default component$(() => {
       <div class="mx-2 flex flex-wrap">
         {galleryIdeas.map((image) => (
           <img
+            key={image.id}
             src={image.url}
             alt={image.category}
             class=" my-1 h-auto w-full    object-cover sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3"
