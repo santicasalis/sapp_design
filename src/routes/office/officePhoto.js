@@ -1,50 +1,50 @@
 export const galleryIdeas = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132274/6E828633-2634-407F-80BA-FB40926033E5_gan6hm.jpg",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244562/IMG_8949_uxmwuq.jpg",
   },
   {
     id: 2,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132275/IMG_6058_1_bv9oxk.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244560/IMG_8950_nqrwbe.jpg",
   },
   {
     id: 3,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132284/IMG_6057_g64xox.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244558/IMG_8948_kpywid.jpg",
   },
   {
     id: 4,
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132282/IMG_7328_dxpxkg.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244558/IMG_8029_ftmdlv.jpg",
   },
-  {
-    id: 5,
+  // {
+  //   id: 5,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132283/IMG_6059_adv34q.heic",
-  },
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244557/IMG_7330_cjty7r.jpg",
+  // },
   {
     id: 6,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132286/IMG_8950_awreeg.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244557/IMG_7330_cjty7r.jpg",
   },
   {
     id: 7,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132287/IMG_8949_ntkceq.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244554/IMG_6059_qe4z4i.jpg",
   },
   {
     id: 8,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132288/IMG_8029_dgraaj.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244553/IMG_6058_nd52kc.jpg",
   },
   {
     id: 9,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132287/IMG_8949_ntkceq.heic",
+    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244559/IMG_7452_s07ubm.jpg",
   },
-  {
-    id: 10,
+  // {
+  //   id: 10,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132286/IMG_8950_awreeg.heic",
-  },
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709132286/IMG_8950_awreeg.heic",
+  // },
 ];
