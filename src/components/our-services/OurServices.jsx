@@ -40,7 +40,7 @@ export const OurServices = component$(() => {
           </a>
           <a
             class="inline-block rounded-lg border-2 border-gray-700 bg-gray-500 px-4 py-2 text-white transition duration-300 ease-in-out hover:bg-gray-700"
-            href=""
+            href="/office"
           >
             Reformas de oficinas
           </a>
