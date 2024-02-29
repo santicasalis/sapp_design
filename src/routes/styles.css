@@ -19,10 +19,6 @@ html {
     "Noto Color Emoji";
 }
 
-body {
-  overflow-x: hidden;
-}
-
 /* HEADINGS ------------------------------------- */
 
 h1 {
@@ -65,7 +61,7 @@ ul {
 }
 
 /* CONTAINER ------------------------------------ */
-.container {
+/* .container {
   margin: 0 auto;
   padding: 30px 40px;
 }
@@ -82,7 +78,7 @@ ul {
 
 .container.container-spacing-xl {
   padding: 50px 40px;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .container {
@@ -124,7 +120,7 @@ button.button-small {
 }
 
 /* DESIGN --------------------------------------- */
-.ellipsis {
+/* .ellipsis {
   position: absolute;
   top: 100px;
   left: -100px;
@@ -148,7 +144,7 @@ button.button-small {
     rgba(21, 25, 52, 0) 100%
   );
   transform: rotate(-5deg);
-}
+} */
 
 @media screen and (min-width: 768px) {
   .ellipsis {
