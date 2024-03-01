@@ -1,7 +1,21 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal, $, useTask$ } from "@builder.io/qwik";
 import { galleryIdeas } from "./homeIdeasPhoto";
 
 export default component$(() => {
+  const filteredImages = useSignal(galleryIdeas);
+
+  const filterImagesByCategory = $((category: string) => {
+    const filtered =
+      category === "All"
+        ? galleryIdeas
+        : galleryIdeas.filter((image) => image.category === category);
+    filteredImages.value = filtered;
+  });
+
+  useTask$(({ track }) => {
+    track(() => filteredImages.value);
+    console.log("FAVORITE (isomorphic)", filteredImages.value);
+  });
   return (
     <div class="mx-auto flex flex-col text-center">
       <h2 class="mb-4 text-3xl font-bold">Ideas para el Hogar</h2>
@@ -9,27 +23,33 @@ export default component$(() => {
         Descubre inspiradoras ideas para mejorar tu hogar y transformar tus
         espacios. Explora nuestra galería de fotos para obtener más inspiración.
       </p>
-      <div>
-        <button class="mr-2 rounded bg-gray-300 px-4 py-2 text-black hover:bg-gray-400 ">
-          baños
-        </button>
-        <button class="mr-2 rounded bg-gray-300 px-4 py-2 text-black hover:bg-gray-400 ">
-          cocinas
-        </button>
-        <button class="mr-2 rounded bg-gray-300 px-4 py-2 text-black hover:bg-gray-400 ">
-          livings
-        </button>
-        <button class="mr-2 rounded bg-gray-300 px-4 py-2 text-black hover:bg-gray-400 ">
-          Habitaciones{" "}
-        </button>
+      <div class="mb-4">
+        {["All", "bath", "Cocinas", "living", "Habitaciones"].map(
+          (category) => (
+            <button
+              key={category}
+              class={`mr-2 rounded px-4 py-2 text-black ${
+                (filteredImages.value.length === 0 && category === "All") ||
+                (filteredImages.value.length > 0 &&
+                  category === filteredImages.value[0].category)
+                  ? "bg-gray-400"
+                  : "bg-gray-300"
+              } hover:bg-gray-400`}
+              onClick$={() => filterImagesByCategory(category)}
+            >
+              {category}
+            </button>
+          ),
+        )}
       </div>
-      <div class="mx-2 flex flex-wrap">
-        {galleryIdeas.map((image) => (
+
+      <div class="mx-2 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+        {filteredImages?.value.map((image) => (
           <img
             key={image.id}
             src={image.url}
             alt={image.category}
-            class=" my-1 h-auto w-full    object-cover sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3"
+            class="m-1 h-auto object-cover sm:h-[300px] md:h-[500px] lg:h-[500px]"
             width="600"
             height="562"
           />
