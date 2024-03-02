@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { useLocation } from "@builder.io/qwik-city";
-import { projectos } from "../../../components/proyectArq/projectos";
+
 interface ItemProps {
   imgCard?: string;
   title?: string;
