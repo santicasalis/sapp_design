@@ -14,13 +14,13 @@ export default component$(() => {
         dudes en contactarnos.
       </p>
 
-      <div class="mx-2 flex flex-wrap">
+      <div class="mx-2 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
         {galleryIdeas.map((image) => (
           <img
             key={image.id}
             src={image.url}
             alt="Imagen oficinas"
-            class=" my-1 h-auto w-full    object-cover sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/3"
+            class=" my-1 h-auto w-full object-cover "
             width="600"
             height="562"
           />
