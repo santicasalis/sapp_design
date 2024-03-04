@@ -1,6 +1,6 @@
-import { $, component$ } from "@builder.io/qwik";
+import { $, component$, type QRL } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
-import { reset } from "@modular-forms/qwik";
+import { InitialValues, SubmitHandler, reset } from "@modular-forms/qwik";
 import { formAction$, useForm, valiForm$ } from "@modular-forms/qwik";
 import swal from "sweetalert";
 import { email, type Input, minLength, object, string } from "valibot";
@@ -17,7 +17,7 @@ const LoginSchema = object({
 
 type LoginForm = Input<typeof LoginSchema>;
 
-export const useFormLoader = routeLoader$<LoginForm>(() => ({
+export const useFormLoader = routeLoader$<InitialValues<LoginForm>>(() => ({
   email: "",
   name: "",
   message: "",
@@ -34,7 +34,7 @@ export default component$(() => {
     validate: valiForm$(LoginSchema),
   });
 
-  const handleSubmit = $((values: any) => {
+  const handleSubmit: QRL<SubmitHandler<LoginForm>> = $((values) => {
     // Runs on client
     console.log(values);
     reset(loginForm);
