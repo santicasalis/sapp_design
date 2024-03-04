@@ -1,4 +1,4 @@
-import { $, component$, type QRL } from "@builder.io/qwik";
+import { $, component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { reset } from "@modular-forms/qwik";
 import { formAction$, useForm, valiForm$ } from "@modular-forms/qwik";
