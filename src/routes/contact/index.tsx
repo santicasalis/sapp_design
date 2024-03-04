@@ -34,7 +34,7 @@ export default component$(() => {
     validate: valiForm$(LoginSchema),
   });
 
-  const handleSubmit: QRL<SubmitHandler<LoginForm>> = $((values, event) => {
+  const handleSubmit: QRL<SubmitHandler<LoginForm>> = $((values) => {
     // Runs on client
     console.log(values);
     reset(loginForm);
