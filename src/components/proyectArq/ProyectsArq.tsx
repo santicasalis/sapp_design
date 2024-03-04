@@ -9,7 +9,7 @@ export const ProyectsArq = component$(() => {
       <h1 class="my-4 text-5xl">Proyectos</h1>
       <div class="flex flex-wrap justify-center">
         {projectos.map((item) => (
-          <Link href={`/proyects/${item.id}`}>
+          <Link href={`/proyects/${item.id}`} key={item.id}>
             <ProyectArq
               key={item.id}
               imgCard={item.imgCard}
