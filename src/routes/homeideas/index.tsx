@@ -14,7 +14,6 @@ export default component$(() => {
 
   useTask$(({ track }) => {
     track(() => filteredImages.value);
-    console.log("FAVORITE (isomorphic)", filteredImages.value);
   });
   return (
     <div class="mx-auto flex flex-col text-center">
@@ -44,7 +43,7 @@ export default component$(() => {
       </div>
 
       <div class="mx-2 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-        {filteredImages?.value.map((image) => (
+        {filteredImages.value.map((image) => (
           <img
             key={image.id}
             src={image.url}
