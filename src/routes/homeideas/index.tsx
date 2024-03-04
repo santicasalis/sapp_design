@@ -19,7 +19,7 @@ export default component$(() => {
   return (
     <div class="mx-auto flex flex-col text-center">
       <h2 class="mb-4 text-3xl font-bold">Ideas para el Hogar</h2>
-      <p class="mb-8 text-gray-600">
+      <p class="w-50  mx-2 my-8 font-bold text-slate-700">
         Descubre inspiradoras ideas para mejorar tu hogar y transformar tus
         espacios. Explora nuestra galería de fotos para obtener más inspiración.
       </p>
@@ -28,13 +28,13 @@ export default component$(() => {
           (category) => (
             <button
               key={category}
-              class={`mr-2 rounded px-4 py-2 text-black ${
+              class={`mr-2  rounded-lg border-2 px-5 py-3 text-white transition  duration-300 ease-in-out  ${
                 (filteredImages.value.length === 0 && category === "All") ||
                 (filteredImages.value.length > 0 &&
                   category === filteredImages.value[0].category)
-                  ? "bg-gray-400"
-                  : "bg-gray-300"
-              } hover:bg-gray-400`}
+                  ? "bg-slate-400"
+                  : "bg-slate-700"
+              } hover:bg-slate-400`}
               onClick$={() => filterImagesByCategory(category)}
             >
               {category}

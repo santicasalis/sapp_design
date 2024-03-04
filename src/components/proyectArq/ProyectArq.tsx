@@ -10,7 +10,7 @@ interface ItemProps {
 export const ProyectArq = component$<ItemProps>((props) => {
   return (
     <div
-      class=" m-4 transition-transform hover:scale-105"
+      class=" m-4 mb-10 transition-transform hover:scale-105"
       style="width: 400px; height: 300px;"
       key={props.id}
     >
@@ -22,6 +22,7 @@ export const ProyectArq = component$<ItemProps>((props) => {
         class="card-image h-50 w-50  object-cover"
       />
       <h3 class="card-title mt-2 text-lg font-bold">{props.title}</h3>
+      <hr class="mt-1 h-1 w-full bg-slate-700 sm:hidden"></hr>
     </div>
   );
 });

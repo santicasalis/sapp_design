@@ -7,7 +7,7 @@ export const Navbar = component$(() => {
     { href: "/", title: "Inicio" },
     { href: "/aboutus", title: "Nosotros" },
     { href: "/proyects", title: "Proyectos" },
-    { href: "/remodeling", title: "Remodelaciones" },
+    { href: "/office", title: "Remodelaciones" },
     { href: "/contact", title: "Contacto" },
   ];
 
