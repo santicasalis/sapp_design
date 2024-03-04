@@ -15,7 +15,6 @@ export default component$(() => {
     return filtered;
   });
 
-  const filteredById = filterImagesByCategory(idFIlter);
   useTask$(({ track }) => {
     track(() => proyectFiltered.value);
   });
