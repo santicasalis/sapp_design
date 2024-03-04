@@ -23,7 +23,7 @@ export const useFormLoader = routeLoader$<InitialValues<LoginForm>>(() => ({
   message: "",
 }));
 
-export const useFormAction = formAction$<LoginForm>((values) => {
+export const useFormAction = formAction$<LoginForm>(() => {
   // Runs on server
 }, valiForm$(LoginSchema));
 
