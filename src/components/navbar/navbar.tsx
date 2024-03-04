@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { MobileNav } from "./mobileNav";
+import { Link } from "@builder.io/qwik-city";
 
 export const Navbar = component$(() => {
   const headerNavLinks = [
@@ -16,7 +17,7 @@ export const Navbar = component$(() => {
      mx-8 flex items-center justify-between py-2"
     >
       <div>
-        <a href="/" aria-label="Sapp">
+        <Link href="/" aria-label="Sapp">
           <div class="flex items-center justify-between">
             <div class="mr-3">
               <img
@@ -27,19 +28,19 @@ export const Navbar = component$(() => {
               />
             </div>
           </div>
-        </a>
+        </Link>
       </div>
       <div class="flex items-center space-x-4 leading-5 sm:space-x-6">
         {headerNavLinks
           .filter((link) => link.href !== "/")
           .map((link) => (
-            <a
+            <Link
               key={link.title}
               href={link.href}
               class="hidden font-medium text-black sm:block"
             >
               {link.title}
-            </a>
+            </Link>
           ))}
         <MobileNav />
       </div>

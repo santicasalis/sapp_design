@@ -1,4 +1,5 @@
 import { component$, useSignal } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 
 export const MobileNav = component$(() => {
   const headerNavLinks = [
@@ -63,7 +64,7 @@ export const MobileNav = component$(() => {
         <nav class="fixed mt-8 h-full">
           {headerNavLinks.map((link) => (
             <div key={link.title} class="px-12 py-4">
-              <a
+              <Link
                 href={link.href}
                 class="text-2xl font-bold tracking-widest text-white "
                 onClick$={() => {
@@ -74,7 +75,7 @@ export const MobileNav = component$(() => {
                 }}
               >
                 {link.title}
-              </a>
+              </Link>
             </div>
           ))}
         </nav>
