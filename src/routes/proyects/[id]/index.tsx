@@ -4,7 +4,7 @@ import { projectos } from "../../../components/proyectArq/projectos";
 
 export default component$(() => {
   const loc = useLocation();
-  // const idFIlter = parseInt(loc.params.id);
+  const idFIlter = parseInt(loc.params.id);
   const proyectFiltered = useSignal(projectos);
   const filterImagesByCategory = $((id: number) => {
     const filtered = projectos.filter(
@@ -15,9 +15,12 @@ export default component$(() => {
     return filtered;
   });
 
+  const filteredById = filterImagesByCategory(idFIlter);
   useTask$(({ track }) => {
     track(() => proyectFiltered.value);
   });
+  console.log(filteredById);
+
   const images = proyectFiltered.value[0].imgDetail;
   return (
     <div class="mx-auto my-4 flex max-w-4xl flex-col items-center p-4">
