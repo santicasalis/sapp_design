@@ -1,7 +1,8 @@
 import { $, component$, type QRL } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
-import type { InitialValues, SubmitHandler } from "@modular-forms/qwik";
+import { InitialValues, SubmitHandler, reset } from "@modular-forms/qwik";
 import { formAction$, useForm, valiForm$ } from "@modular-forms/qwik";
+import swal from "sweetalert";
 import { email, type Input, minLength, object, string } from "valibot";
 
 const LoginSchema = object({
@@ -11,7 +12,7 @@ const LoginSchema = object({
   ]),
   name: string([minLength(1, "Por favor ingrese su nombre completo.")]),
 
-  message: string([minLength(1, "Por favor ingrese su consulta.")]),
+  message: string([minLength(10, "Por favor ingrese su consulta.")]),
 });
 
 type LoginForm = Input<typeof LoginSchema>;
@@ -36,6 +37,8 @@ export default component$(() => {
   const handleSubmit: QRL<SubmitHandler<LoginForm>> = $((values, event) => {
     // Runs on client
     console.log(values);
+    reset(loginForm);
+    swal("Gracias", "Consulta enviada correctamente", "success");
   });
 
   return (
@@ -77,9 +80,8 @@ export default component$(() => {
           <Field name="message">
             {(field, props) => (
               <div>
-                <input
+                <textarea
                   {...props}
-                  type="text"
                   value={field.value}
                   class="h-55 my-4  w-80 border border-solid border-gray-300 bg-slate-700 p-4 text-white"
                   placeholder="Mensaje"
