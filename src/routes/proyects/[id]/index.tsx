@@ -4,7 +4,7 @@ import { projectos } from "../../../components/proyectArq/projectos";
 
 export default component$(() => {
   const loc = useLocation();
-  const idFIlter = loc.params.id;
+  const idFIlter = parseInt(loc.params.id);
   const proyectFiltered = useSignal(projectos);
   const filterImagesByCategory = $((id: number) => {
     const filtered = projectos.filter(
