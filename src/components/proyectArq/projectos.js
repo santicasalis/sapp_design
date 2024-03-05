@@ -39,9 +39,9 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/7_hsaf9j.jpg",
 
-    title:
+    title: "Proyecto Anhelo Bar",
+    description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
-    description: "esta es la descripcion del proyecto ANHELO BAR",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/8_xqywro.jpg",
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131954/9_uriu4w.jpg",
