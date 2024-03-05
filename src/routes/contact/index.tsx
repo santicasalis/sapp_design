@@ -3,7 +3,7 @@ import { routeLoader$ } from "@builder.io/qwik-city";
 import { reset } from "@modular-forms/qwik";
 import { formAction$, useForm, valiForm$ } from "@modular-forms/qwik";
 import swal from "sweetalert";
-import { email, type Input, minLength, object, string } from "valibot";
+import { email, minLength, object, string } from "valibot";
 
 const LoginSchema = object({
   email: string([
