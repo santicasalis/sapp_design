@@ -18,7 +18,7 @@ export default component$(() => {
 
   return (
     <div class="mx-auto flex flex-col text-center">
-      <h2 class="font-madimi-one mb-4 text-3xl font-bold">
+      <h2 class="font-madimi-one mb-4 text-lg lg:text-2xl">
         Ideas para el Hogar
       </h2>
       <p class="w-50  mx-2 my-8 font-bold text-slate-700">

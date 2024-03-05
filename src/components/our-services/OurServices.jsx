@@ -5,7 +5,7 @@ export const OurServices = component$(() => {
   return (
     <div>
       <div class="flex w-full flex-col justify-between ">
-        <h2 class="font-madimi-one">Nuestros Servicios</h2>
+        <h2 class="font-madimi-one text-lg lg:text-2xl">Nuestros Servicios</h2>
 
         <div class="mx-4 my-1 flex flex-wrap  justify-center sm:mx-0">
           <div class="mx-2 my-2 h-full w-[350px] sm:mx-0 ">

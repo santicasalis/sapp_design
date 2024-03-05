@@ -8,7 +8,7 @@ export const SectionImg = component$(() => {
         style="background-image: url('https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131036/COCINA_1_wrisas.jpg');  height: 80vh;"
       >
         <div class=" mx-auto mt-20  text-white">
-          <h3 class="font-madimi-one text-xxl hidden  sm:block">
+          <h3 class="text-xxl hidden font-semibold sm:block">
             Renovamos tus espacios!
           </h3>
         </div>
