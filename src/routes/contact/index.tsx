@@ -15,20 +15,18 @@ const LoginSchema = object({
   message: string([minLength(10, "Por favor ingrese su consulta.")]),
 });
 
-type LoginForm = Input<typeof LoginSchema>;
-
-export const useFormLoader = routeLoader$<LoginForm>(() => ({
+export const useFormLoader = routeLoader$(() => ({
   email: "",
   name: "",
   message: "",
 }));
 
-export const useFormAction = formAction$<LoginForm>(() => {
+export const useFormAction = formAction$(() => {
   // Runs on server
 }, valiForm$(LoginSchema));
 
 export default component$(() => {
-  const [loginForm, { Form, Field }] = useForm<LoginForm>({
+  const [loginForm, { Form, Field }] = useForm({
     loader: useFormLoader(),
     action: useFormAction(),
     validate: valiForm$(LoginSchema),
