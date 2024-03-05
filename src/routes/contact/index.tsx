@@ -51,7 +51,7 @@ export default component$(() => {
             {(field, props) => (
               <div>
                 <input
-                  class=" font-madimi-one my-4 w-80 border border-solid border-gray-300 bg-slate-700  p-4  text-white"
+                  class="  my-4 w-80 border border-solid border-gray-300 bg-slate-700  p-4  text-white"
                   {...props}
                   type="text"
                   value={field.value}
@@ -68,7 +68,7 @@ export default component$(() => {
                   {...props}
                   type="email"
                   value={field.value}
-                  class="font-madimi-one my-4 w-80 border border-solid border-gray-300 bg-slate-700 p-4  text-white"
+                  class=" my-4 w-80 border border-solid border-gray-300 bg-slate-700 p-4  text-white"
                   placeholder="Correo electrónico"
                 />
                 {field.error && <div class="text-red-500">{field.error}</div>}
@@ -81,7 +81,7 @@ export default component$(() => {
                 <textarea
                   {...props}
                   value={field.value}
-                  class="h-55 font-madimi-one  my-4 w-80 border border-solid border-gray-300 bg-slate-700 p-4 text-white"
+                  class="h-55   my-4 w-80 border border-solid border-gray-300 bg-slate-700 p-4 text-white"
                   placeholder="Mensaje"
                 />
                 {field.error && <div class="text-red-500">{field.error}</div>}
@@ -91,7 +91,7 @@ export default component$(() => {
           <div class="flex justify-center">
             <button
               type="submit"
-              class="font-madimi-one mx-auto inline-block items-center rounded-lg border-2 border-gray-700 bg-slate-700 px-8  py-3 text-white transition  duration-300 ease-in-out hover:bg-slate-400"
+              class="mx-auto inline-block items-center rounded-lg border-2 border-gray-700 bg-slate-700 px-8 py-3  font-semibold text-white transition  duration-300 ease-in-out hover:bg-slate-400"
             >
               Enviar
             </button>
