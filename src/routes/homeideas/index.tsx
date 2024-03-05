@@ -6,7 +6,7 @@ export default component$(() => {
 
   const filterImagesByCategory = $((category: string) => {
     const filtered =
-      category === "All"
+      category === "Todos"
         ? galleryIdeas
         : galleryIdeas.filter((image) => image.category === category);
     filteredImages.value = filtered;
@@ -26,12 +26,12 @@ export default component$(() => {
         espacios. Explora nuestra galería de fotos para obtener más inspiración.
       </p>
       <div class="mb-4">
-        {["All", "bath", "Cocinas", "living", "Habitaciones"].map(
+        {["Todos", "Baños", "Cocinas", "Livings", "Habitaciones"].map(
           (category) => (
             <button
               key={category}
               class={`mr-2  rounded-lg border-2 px-5 py-3 text-white transition  duration-300 ease-in-out  ${
-                (filteredImages.value.length === 0 && category === "All") ||
+                (filteredImages.value.length === 0 && category === "Todos") ||
                 (filteredImages.value.length > 0 &&
                   category === filteredImages.value[0].category)
                   ? "bg-slate-400"

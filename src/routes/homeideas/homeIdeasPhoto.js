@@ -1,12 +1,12 @@
 export const galleryIdeas = [
   {
     id: 1,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130952/ba%C3%B1os_2_piqjwj.jpg",
   },
   {
     id: 2,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130953/ba%C3%B1os_4_kloqhi.jpg",
   },
   {
@@ -21,7 +21,7 @@ export const galleryIdeas = [
   },
   {
     id: 5,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130953/ba%C3%B1os_6_zdq3qn.jpg",
   },
   {
@@ -31,22 +31,22 @@ export const galleryIdeas = [
   },
   {
     id: 7,
-    category: "living",
+    category: "Livings",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130954/living_3_kxfsyc.jpg",
   },
   {
     id: 8,
-    category: "living",
+    category: "Livings",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130954/living_2_mii5c6.jpg",
   },
   {
     id: 9,
-    category: "living",
+    category: "Livings",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130954/living_4_tougzf.jpg",
   },
   {
     id: 10,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130954/ba%C3%B1os_1_vftrm1.jpg",
   },
   // {
@@ -69,7 +69,7 @@ export const galleryIdeas = [
 
   {
     id: 13,
-    category: "living",
+    category: "Livings",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131002/living_1_rjf8c6.jpg",
   },
   {
@@ -80,12 +80,12 @@ export const galleryIdeas = [
 
   {
     id: 15,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131037/BA%C3%91O_1_hdiuse.jpg",
   },
   {
     id: 16,
-    category: "bath",
+    category: "Baños",
     url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709130952/ba%C3%B1os_2_piqjwj.jpg",
   },
 ];
