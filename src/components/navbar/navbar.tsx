@@ -1,15 +1,17 @@
 import { component$ } from "@builder.io/qwik";
 import { MobileNav } from "./mobileNav";
-import { Link } from "@builder.io/qwik-city";
+import { Link, useLocation } from "@builder.io/qwik-city";
 
 export const Navbar = component$(() => {
   const headerNavLinks = [
     { href: "/", title: "Inicio" },
-    { href: "/aboutus", title: "Nosotros" },
-    { href: "/proyects", title: "Proyectos" },
-    { href: "/office", title: "Remodelaciones" },
-    { href: "/contact", title: "Contacto" },
+    { href: "/aboutus/", title: "Nosotros" },
+    { href: "/proyects/", title: "Proyectos" },
+    { href: "/office/", title: "Remodelaciones" },
+    { href: "/contact/", title: "Contacto" },
   ];
+  const location = useLocation();
+  console.log(location.url.pathname);
 
   return (
     <header
@@ -37,7 +39,11 @@ export const Navbar = component$(() => {
             <Link
               key={link.title}
               href={link.href}
-              class="hidden font-medium text-black sm:block"
+              class={`rounded-md p-2 font-medium text-black  transition duration-300 ease-in-out hover:bg-slate-700 hover:text-white sm:block ${
+                location.url.pathname == link.href
+                  ? "bg-slate-700 text-white"
+                  : ""
+              }`}
             >
               {link.title}
             </Link>
