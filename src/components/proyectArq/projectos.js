@@ -23,7 +23,7 @@ export const projectos = [
     id: 3,
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131859/8_-_copia_sjx1xt.png",
-    title: "CASA BRISA",
+    title: "Casa Brisa",
     description: "esta es la descripcion del CASA BRISA",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131859/4_sfi73d.png",
@@ -35,7 +35,8 @@ export const projectos = [
     id: 4,
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/7_hsaf9j.jpg",
-    title: "ANHELO BAR",
+
+    title: "Proyecto Anhelo Bar",
     description: "esta es la descripcion del proyecto ANHELO BAR",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/8_xqywro.jpg",
@@ -51,7 +52,7 @@ export const projectos = [
     id: 5,
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134491/14_fihrzh.jpg",
-    title: "proyecto  MARIA PETIT",
+    title: "Proyecto Maria",
     description: "esta es la descripcion del proyecto  MARIA PETIT",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134490/13_ego4gt.jpg",
@@ -63,16 +64,16 @@ export const projectos = [
     id: 6,
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
-    title: "proyecto x",
-    description: "esta es la descripcion del proyecto x",
+    title: "Proyecto x",
+    description: "esta es la descripcion del proyecto X",
     imgDetail: [],
   },
   {
     id: 7,
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
-    title: "proyecto x",
-    description: "esta es la descripcion del proyecto x",
+    title: "Proyecto Z",
+    description: "esta es la descripcion del proyecto Z",
     imgDetail: [],
   },
 ];
