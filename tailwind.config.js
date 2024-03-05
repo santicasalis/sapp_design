@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         "madimi-one": ["Madimi One", "cursive"],
       },
+      colors: {
+        "gray-custom": "#545b5d",
+      },
     },
   },
   plugins: [],
