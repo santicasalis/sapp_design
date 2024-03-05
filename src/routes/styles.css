@@ -16,20 +16,22 @@ html {
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol",
+    "madimi-one",
     "Noto Color Emoji";
 }
 
 /* HEADINGS ------------------------------------- */
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
+  font-family: "madimi-one";
 }
 
 h2 {
   font-size: 2rem;
   text-align: center;
-  font-family: "ui-sans-serif";
+  font-family: "madimi-one";
 
   background-color: #0e1e4f;
   color: white;

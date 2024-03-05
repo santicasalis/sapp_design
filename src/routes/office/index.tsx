@@ -4,7 +4,7 @@ import { galleryIdeas } from "./officePhoto";
 export default component$(() => {
   return (
     <div class="mx-4 my-2 flex flex-col text-center">
-      <h2 class="mb-4">Remodelación Estudio jurídico</h2>
+      <h2 class="font-madimi-one mb-4">Remodelación Estudio jurídico</h2>
       <p class="w-50 mx-2  my-8 mb-8 font-bold text-slate-700">
         En esta increíble transformación, buscamos lograr un estilo moderno que
         combine lo serio y lo acogedor. ¡Usamos una paleta de colores que se

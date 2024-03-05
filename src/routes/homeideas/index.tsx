@@ -15,9 +15,12 @@ export default component$(() => {
   useTask$(({ track }) => {
     track(() => filteredImages.value);
   });
+
   return (
     <div class="mx-auto flex flex-col text-center">
-      <h2 class="mb-4 text-3xl font-bold">Ideas para el Hogar</h2>
+      <h2 class="font-madimi-one mb-4 text-3xl font-bold">
+        Ideas para el Hogar
+      </h2>
       <p class="w-50  mx-2 my-8 font-bold text-slate-700">
         Descubre inspiradoras ideas para mejorar tu hogar y transformar tus
         espacios. Explora nuestra galería de fotos para obtener más inspiración.

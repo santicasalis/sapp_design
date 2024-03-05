@@ -40,7 +40,7 @@ export default component$(() => {
 
   return (
     <>
-      <h2>Dejame tu consulta</h2>
+      <h2 class="font-madimi-one">Dejame tu consulta</h2>
 
       <div class="flex flex-col justify-center sm:flex-row">
         <Form

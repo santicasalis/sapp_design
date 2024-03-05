@@ -6,7 +6,7 @@ import { Link } from "@builder.io/qwik-city";
 export const ProyectsArq = component$(() => {
   return (
     <div>
-      <h2 class="my-4 ">Proyectos</h2>
+      <h2 class="font-madimi-one my-4">Proyectos</h2>
       <div class="flex flex-wrap justify-center">
         {projectos.map((item) => (
           <Link href={`/proyects/${item.id}`} key={item.id}>

@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 export default component$(() => {
   return (
     <>
-      <h2>Remodelaciones</h2>
+      <h2 class="font-madimi-one">Remodelaciones</h2>
     </>
   );
 });
