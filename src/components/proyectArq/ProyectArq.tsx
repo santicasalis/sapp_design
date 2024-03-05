@@ -21,7 +21,9 @@ export const ProyectArq = component$<ItemProps>((props) => {
         alt="Descripción de la imagen"
         class="card-image h-50 w-50  object-cover"
       />
-      <h3 class="card-title mt-2 text-lg font-bold">{props.title}</h3>
+      <h3 class="card-title mt-2 text-lg font-bold text-slate-700">
+        {props.title}
+      </h3>
       <hr class="mt-1 h-1 w-full bg-slate-700 sm:hidden"></hr>
     </div>
   );

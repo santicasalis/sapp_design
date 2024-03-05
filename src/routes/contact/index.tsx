@@ -40,11 +40,12 @@ export default component$(() => {
 
   return (
     <>
-      <h2>Contactame</h2>
-      <div class=" flex flex-col items-center justify-center">
+      <h2>Dejame tu consulta</h2>
+
+      <div class="flex flex-col justify-center sm:flex-row">
         <Form
           onSubmit$={handleSubmit}
-          class="border border-solid border-slate-700  p-8"
+          class="my-2 flex flex-1 flex-col  items-center"
         >
           <Field name="name">
             {(field, props) => (
@@ -96,6 +97,15 @@ export default component$(() => {
             </button>
           </div>
         </Form>
+        <div class="   flex-1 ">
+          <img
+            width="600"
+            height="562"
+            class=" my-1 h-80 object-cover "
+            src="https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244560/IMG_8950_nqrwbe.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </>
   );

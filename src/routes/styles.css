@@ -27,12 +27,11 @@ h1 {
 }
 
 h2 {
-  font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "ui-sans-serif";
 
-  background-color: #2b3a67;
+  background-color: #0e1e4f;
   color: white;
   padding: 1rem;
 }
