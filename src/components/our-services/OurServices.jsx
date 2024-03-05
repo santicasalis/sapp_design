@@ -34,13 +34,13 @@ export const OurServices = component$(() => {
           </div>
           <div class="flex w-full justify-around">
             <Link
-              class="inline-block rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-3 text-white transition duration-300 ease-in-out  hover:bg-slate-400"
+              class="font-madimi-one inline-block rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-3 font-extrabold text-white transition  duration-300 ease-in-out hover:bg-slate-400"
               href="/homeideas"
             >
               Ideas para tu hogar
             </Link>
             <Link
-              class="inline-block rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-3 text-white transition duration-300 ease-in-out hover:bg-slate-400"
+              class="font-madimi-one inline-block rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-3 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400"
               href="/office"
             >
               Reformas de oficinas

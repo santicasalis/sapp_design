@@ -24,7 +24,7 @@ export default component$(() => {
   const images = proyectFiltered.value[0].imgDetail;
   return (
     <div class="mx-auto my-4 flex max-w-4xl flex-col items-center p-4">
-      <h1 class=" mb-6 text-3xl font-bold">
+      <h1 class=" mb-6 text-3xl font-bold text-slate-700">
         {" "}
         {proyectFiltered.value[0].title}
       </h1>
@@ -36,7 +36,10 @@ export default component$(() => {
         class="mb-4  w-full rounded-md object-cover"
       />
 
-      <p class=" my-8 text-gray-700"> {proyectFiltered.value[0].description}</p>
+      <div class=" my-8 text-xl font-bold text-gray-700">
+        {" "}
+        {proyectFiltered.value[0].description}
+      </div>
 
       <div class="grid grid-cols-1  gap-4  sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-2">
         {images.map((imageUrl, index) => (

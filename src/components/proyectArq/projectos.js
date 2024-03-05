@@ -4,7 +4,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/1_txym2g.png",
     title: "Casa Edu",
-    description: "esta es la descripcion de Casa Edu",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/7_texcn9.png",
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
@@ -16,7 +17,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/9_vv7awf.png",
     title: "Casa E&L 335",
-    description: "esta es la descripcion del proyecto Casa E&L 335",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [],
   },
   {
@@ -24,7 +26,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131859/8_-_copia_sjx1xt.png",
     title: "Casa Brisa",
-    description: "esta es la descripcion del CASA BRISA",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131859/4_sfi73d.png",
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131860/5_lr6bza.png",
@@ -36,7 +39,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/7_hsaf9j.jpg",
 
-    title: "Proyecto Anhelo Bar",
+    title:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     description: "esta es la descripcion del proyecto ANHELO BAR",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131953/8_xqywro.jpg",
@@ -53,7 +57,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134491/14_fihrzh.jpg",
     title: "Proyecto Maria",
-    description: "esta es la descripcion del proyecto  MARIA PETIT",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134490/13_ego4gt.jpg",
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134498/11_bjyjfr.jpg",
@@ -65,7 +70,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
     title: "Proyecto x",
-    description: "esta es la descripcion del proyecto X",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [],
   },
   {
@@ -73,7 +79,8 @@ export const projectos = [
     imgCard:
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
     title: "Proyecto Z",
-    description: "esta es la descripcion del proyecto Z",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [],
   },
 ];

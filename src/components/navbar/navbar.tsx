@@ -39,7 +39,7 @@ export const Navbar = component$(() => {
             <Link
               key={link.title}
               href={link.href}
-              class={`rounded-md p-2 font-medium text-black  transition duration-300 ease-in-out hover:bg-slate-700 hover:text-white sm:block ${
+              class={`font-madimi-one rounded-md p-2 font-medium text-black  transition duration-300 ease-in-out hover:bg-slate-700 hover:text-white sm:block ${
                 location.url.pathname == link.href
                   ? "bg-slate-700 text-white"
                   : ""
