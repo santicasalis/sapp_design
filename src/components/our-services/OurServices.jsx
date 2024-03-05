@@ -5,7 +5,7 @@ export const OurServices = component$(() => {
   return (
     <div>
       <div class="flex w-full flex-col justify-between ">
-        <h2 class="font-madimi-one text-lg lg:text-2xl">Nuestros Servicios</h2>
+        <h2 class="text-lg font-semibold lg:text-2xl">Nuestros Servicios</h2>
 
         <div class="mx-4 my-1 flex flex-wrap  justify-center sm:mx-0">
           <div class="mx-2 my-2 h-full w-[350px] sm:mx-0 ">
@@ -34,13 +34,13 @@ export const OurServices = component$(() => {
           </div>
           <div class="mb-2 flex w-full flex-col  items-center sm:flex-row  sm:justify-around">
             <Link
-              class="font-madimi-one mb-4  flex max-w-xs flex-1 items-center  justify-center rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-4 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400 "
+              class=" mb-4  flex max-w-xs flex-1 items-center  justify-center rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-4 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400 "
               href="/homeideas"
             >
               Ideas para tu hogar
             </Link>
             <Link
-              class="font-madimi-one mb-2 flex max-w-xs flex-1 items-center justify-center rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-4 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400 "
+              class="mb-2 flex max-w-xs flex-1 items-center justify-center rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-4 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400 "
               href="/office"
             >
               Reformas de oficinas

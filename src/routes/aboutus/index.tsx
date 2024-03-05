@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 export default component$(() => {
   return (
     <>
-      <h2 class="font-madimi-one text-lg lg:text-2xl">Nosotros</h2>
+      <h2 class="text-lg font-semibold lg:text-2xl">Nosotros</h2>
       <div class="  mx-6 my-4 flex flex-col  items-center justify-center">
         <div class=" mx-6 my-6   font-bold text-slate-700">
           Descubre cómo en SAPP convertimos tu visión en realidad. Nuestra

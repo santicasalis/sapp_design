@@ -4,7 +4,7 @@ import { galleryIdeas } from "./officePhoto";
 export default component$(() => {
   return (
     <div class=" my-2 flex flex-col text-center">
-      <h2 class="font-madimi-one mb-4 text-lg lg:text-2xl">
+      <h2 class="mb-4 text-lg font-semibold lg:text-2xl">
         Remodelación Estudio jurídico
       </h2>
       <p class="w-50 mx-6  my-8 mb-8 font-bold text-slate-700">
