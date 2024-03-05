@@ -2,7 +2,7 @@ import { $, component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { reset } from "@modular-forms/qwik";
 import { formAction$, useForm, valiForm$ } from "@modular-forms/qwik";
-import swal from "sweetalert";
+import Swal from "sweetalert";
 import { email, minLength, object, string } from "valibot";
 
 const LoginSchema = object({
@@ -36,7 +36,7 @@ export default component$(() => {
     // Runs on client
     //utilizar values
     reset(loginForm);
-    swal("Gracias", "Consulta enviada correctamente", "success");
+    Swal("Gracias", "Consulta enviada correctamente", "success");
   });
 
   return (
