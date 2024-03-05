@@ -4,15 +4,15 @@ export default component$(() => {
   return (
     <>
       <h2 class="font-madimi-one">Nosotros</h2>
-      <div class="  mx-auto  flex flex-col  items-center justify-center">
-        <div class="  mx-auto my-4    p-10 font-bold text-slate-700">
+      <div class="  mx-6 my-4 flex flex-col  items-center justify-center">
+        <div class=" mx-6 my-6   font-bold text-slate-700">
           Descubre cómo en SAPP convertimos tu visión en realidad. Nuestra
           pasión por el diseño nos impulsa a crear espacios excepcionales,
           fusionando creatividad e innovación. Únete a la experiencia SAPP y
           transforma tus ambientes con un toque distintivo.
         </div>
 
-        <div class="  mx-auto  mb-4   font-bold text-slate-700">
+        <div class="  mx-6  mb-4   font-bold text-slate-700">
           ¡Revitaliza tus espacios, refleja tu estilo, y haz del diseño una
           experiencia única!
         </div>
