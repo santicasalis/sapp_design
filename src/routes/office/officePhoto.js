@@ -22,26 +22,26 @@ export const galleryIdeas = [
 
   //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244557/IMG_7330_cjty7r.jpg",
   // },
-  {
-    id: 6,
+  // {
+  //   id: 6,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244557/IMG_7330_cjty7r.jpg",
-  },
-  {
-    id: 7,
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244557/IMG_7330_cjty7r.jpg",
+  // },
+  // {
+  //   id: 7,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244554/IMG_6059_qe4z4i.jpg",
-  },
-  {
-    id: 8,
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244554/IMG_6059_qe4z4i.jpg",
+  // },
+  // {
+  //   id: 8,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244553/IMG_6058_nd52kc.jpg",
-  },
-  {
-    id: 9,
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244553/IMG_6058_nd52kc.jpg",
+  // },
+  // {
+  //   id: 9,
 
-    url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244559/IMG_7452_s07ubm.jpg",
-  },
+  //   url: "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709244559/IMG_7452_s07ubm.jpg",
+  // },
   // {
   //   id: 10,
 

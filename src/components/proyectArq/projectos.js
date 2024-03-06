@@ -2,25 +2,27 @@ export const projectos = [
   {
     id: 1,
     imgCard:
-      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/1_txym2g.png",
-    title: "Casa Edu",
+      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/9_vv7awf.png",
+    title: "Casa E&L 335",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
     imgDetail: [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/7_texcn9.png",
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
-      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
+
+      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/1_txym2g.png",
+      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/8_q9ozdv.png",
     ],
   },
-  {
-    id: 2,
-    imgCard:
-      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/9_vv7awf.png",
-    title: "Casa E&L 335",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
-    imgDetail: [],
-  },
+  // {
+  //   id: 2,
+  //   imgCard:
+  //     "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131824/9_vv7awf.png",
+  //   title: "Casa E&L 335",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
+  //   imgDetail: [],
+  // },
   {
     id: 3,
     imgCard:
@@ -65,22 +67,22 @@ export const projectos = [
       "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709134501/12_iqin1d.jpg",
     ],
   },
-  {
-    id: 6,
-    imgCard:
-      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
-    title: "Proyecto x",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
-    imgDetail: [],
-  },
-  {
-    id: 7,
-    imgCard:
-      "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
-    title: "Proyecto Z",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
-    imgDetail: [],
-  },
+  // {
+  //   id: 6,
+  //   imgCard:
+  //     "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
+  //   title: "Proyecto x",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
+  //   imgDetail: [],
+  // },
+  // {
+  //   id: 7,
+  //   imgCard:
+  //     "https://res.cloudinary.com/dnkfzdayh/image/upload/v1709131823/2_fgxl4y.png",
+  //   title: "Proyecto Z",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, totam. Officia distinctio unde sapiente soluta modi vero, nobis ut adipisci at optio fugit asperiores nostrum magnam earum eius possimus atque.",
+  //   imgDetail: [],
+  // },
 ];

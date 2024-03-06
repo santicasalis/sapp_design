@@ -32,7 +32,7 @@ export const MobileNav = component$(() => {
         </svg>
       </button>
       <div
-        class={`fixed left-0 top-0 z-10 h-full w-full transform bg-white opacity-95 duration-300 ease-in-out dark:bg-gray-950 dark:opacity-[0.98] ${
+        class={`opacity- fixed left-0 top-0 z-10 h-full w-full transform bg-white duration-300 ease-in-out dark:bg-gray-950 dark:opacity-[0.80] ${
           toggleState.value ? "translate-x-0" : "translate-x-full"
         }`}
       >

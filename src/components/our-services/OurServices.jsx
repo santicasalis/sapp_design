@@ -39,12 +39,6 @@ export const OurServices = component$(() => {
             >
               Ideas para tu hogar
             </Link>
-            <Link
-              class="mb-2 flex max-w-xs flex-1 items-center justify-center rounded-lg border-2 border-gray-700 bg-slate-700 px-4 py-4 font-extrabold text-white transition duration-300 ease-in-out hover:bg-slate-400 "
-              href="/office"
-            >
-              Reformas de oficinas
-            </Link>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export const WhatsApp = component$(() => {
   return (
     <>
       <a
-        href="www.google.com"
+        href="wa.link/rt4fyh"
         target="_blank"
         rel="noopener noreferrer"
         class="fixed bottom-6 right-10 cursor-pointer transition-transform duration-300 hover:scale-110 hover:text-green-500  "
